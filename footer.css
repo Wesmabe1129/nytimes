@@ -1,0 +1,166 @@
+:root {
+    --font-montserrat: Montserrat, Helvetica, sans-serif ;
+}
+
+.footer-note {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    overflow: hidden;
+    padding: 1rem 0 1rem;
+    font-family: var(--font-montserrat);
+}
+
+.update-container  {
+    flex: 1;
+    align-items: center;
+    padding-left: 6rem;
+}
+.resources-container  {
+    flex: 1;
+    align-items: center;
+    padding-left: 5rem;
+}
+.help-container  {
+    display: flex;
+    flex-direction: column;
+    flex: 0.75;
+    align-items: left;
+}
+
+
+.note-info {
+    display: flex;
+    width: 245px;
+    
+    font-size: small;
+}
+.note-help {
+    display: flex;
+    font-size: small;
+}
+.note-contact {
+    display: flex;
+    font-size: small;
+}
+.note-order {
+    display: flex;
+    font-size: small;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 479px) {
+    h3 {
+        font-size: 10px;
+    }
+    .note-info {
+        display: flex;
+        width: 100px;
+        
+    }
+
+    .note-info,
+    .note-help ,
+    .note-contact, 
+    .note-order {
+        font-size: 8px;
+    }
+    
+    .update-container  {
+        flex: 1;
+        align-items: center;
+        padding-left: 1rem;
+    }
+    .resources-container  {
+        flex: 1;
+        align-items: center;
+        padding-left: 1rem;
+    }
+
+    .imgNote {
+        width: 100px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    h3 {
+        font-size: 14px;
+    }
+    .note-info {
+        display: flex;
+        width: 150px;
+        
+    }
+
+    .note-info,
+    .note-help ,
+    .note-contact, 
+    .note-order {
+        font-size: 12px;
+    }
+    
+    .update-container  {
+        flex: 1;
+        align-items: center;
+        padding-left: 3rem;
+    }
+    .resources-container  {
+        flex: 1;
+        align-items: center;
+        padding-left: 1rem;
+    }
+
+    .imgNote {
+        width: 120px;
+    }
+
+    .footer-note {
+        margin-bottom: 10rem;
+    }
+
+    
+}
+
+
+@media screen and (min-width: 1025px) {
+    h3 {
+        font-size: 14px;
+    }
+    .note-info {
+        display: flex;
+        width: 150px;
+        
+    }
+
+    .note-info,
+    .note-help ,
+    .note-contact, 
+    .note-order {
+        font-size: 12px;
+    }
+    
+    .update-container  {
+        flex: 1;
+        align-items: center;
+        padding-left: 3rem;
+    }
+    .resources-container  {
+        flex: 1;
+        align-items: center;
+        padding-left: 1rem;
+    }
+
+    .imgNote {
+        width: 120px;
+    }
+
+    .footer-note {
+        padding-left: 5rem;
+    }
+}
